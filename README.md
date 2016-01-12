@@ -11,13 +11,17 @@ This repo includes that fork as a submodule, so you can get it all running witho
 
 `git clone https://github.com/chriswhong/dashing-js-template-project.git`
 
+- Navigate to the repo directory
+
+`cd dashing-js-template-project`
+
 - Install Submodules
 
 `git submodule update --init --recursive`
 
 - Install Dependencies for the dashing-js submodule
 
-`cd dashing-js-template-project/submodules/dashing-js && npm install`
+`cd submodules/dashing-js && npm install`
 
 - Navigate back to the main directory and start the server 
 
