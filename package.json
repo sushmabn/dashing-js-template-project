@@ -1,0 +1,10 @@
+{
+  "name": "dashboard",
+  "description": "dashboard",
+  "author": "<Put your name here>",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+  },
+  "engine": "node >= 0.10"
+}

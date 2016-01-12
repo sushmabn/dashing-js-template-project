@@ -1,0 +1,6 @@
+[submodule "dashing-js/dashing-js"]
+	path = dashing-js/dashing-js
+	url = https://github.com/dodderjs/dashing-js.git
+[submodule "submodules/submodules/dashing-js"]
+	path = submodules/submodules/dashing-js
+	url = https://github.com/dodderjs/dashing-js.git

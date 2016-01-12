@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose install where, deps [ '/Users/chriswhong/Sites/dashboard', [ 'dashing-js' ] ]
+5 verbose install where, peers [ '/Users/chriswhong/Sites/dashboard', [] ]
+6 info preinstall dashboard@0.0.1
+7 silly cache add args [ 'dashing-js@~0.1.6', null ]
+8 verbose cache add spec dashing-js@~0.1.6
+9 silly cache add parsed spec { raw: 'dashing-js@~0.1.6',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'dashing-js',
+9 silly cache add   rawSpec: '~0.1.6',
+9 silly cache add   spec: '>=0.1.6 <0.2.0',
+9 silly cache add   type: 'range' }
+10 verbose addNamed dashing-js@>=0.1.6 <0.2.0
+11 silly addNamed semver.valid null
+12 silly addNamed semver.validRange >=0.1.6 <0.2.0
+13 silly addNameRange { name: 'dashing-js', range: '>=0.1.6 <0.2.0', hasData: false }
+14 silly mapToRegistry name dashing-js
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/dashing-js
+18 verbose addNameRange registry:https://registry.npmjs.org/dashing-js not in flight; fetching
+19 verbose request uri https://registry.npmjs.org/dashing-js
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 3:10:03 PM
+22 verbose request id 1f5115cd115d22c3
+23 verbose etag "ANS0I6AKT6I6FVBWTE7S3BVQ8"
+24 http request GET https://registry.npmjs.org/dashing-js
+25 http 304 https://registry.npmjs.org/dashing-js
+26 silly get cb [ 304,
+26 silly get   { date: 'Tue, 12 Jan 2016 20:10:03 GMT',
+26 silly get     via: '1.1 varnish',
+26 silly get     'cache-control': 'max-age=300',
+26 silly get     etag: '"ANS0I6AKT6I6FVBWTE7S3BVQ8"',
+26 silly get     age: '0',
+26 silly get     connection: 'keep-alive',
+26 silly get     'x-served-by': 'cache-atl6226-ATL',
+26 silly get     'x-cache': 'MISS',
+26 silly get     'x-cache-hits': '0',
+26 silly get     'x-timer': 'S1452629403.502236,VS0,VE150',
+26 silly get     vary: 'Accept' } ]
+27 verbose etag https://registry.npmjs.org/dashing-js from cache
+28 verbose get saving dashing-js to /Users/chriswhong/.npm/registry.npmjs.org/dashing-js/.cache.json
+29 silly addNameRange number 2 { name: 'dashing-js', range: '>=0.1.6 <0.2.0', hasData: true }
+30 silly addNameRange versions [ 'dashing-js',
+30 silly addNameRange   [ '0.0.1',
+30 silly addNameRange     '0.0.2',
+30 silly addNameRange     '0.0.3',
+30 silly addNameRange     '0.0.4',
+30 silly addNameRange     '0.0.5',
+30 silly addNameRange     '0.0.6',
+30 silly addNameRange     '0.0.7',
+30 silly addNameRange     '0.0.8',
+30 silly addNameRange     '0.0.9',
+30 silly addNameRange     '0.0.10',
+30 silly addNameRange     '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.1.2',
+30 silly addNameRange     '0.1.3',
+30 silly addNameRange     '0.1.4',
+30 silly addNameRange     '0.1.5' ] ]
+31 verbose stack Error: No compatible version found: dashing-js@'>=0.1.6 <0.2.0'
+31 verbose stack Valid install targets:
+31 verbose stack ["0.0.1","0.0.2","0.0.3","0.0.4","0.0.5","0.0.6","0.0.7","0.0.8","0.0.9","0.0.10","0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5"]
+31 verbose stack
+31 verbose stack     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:259:12)
+31 verbose stack     at next (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:238:17)
+31 verbose stack     at setData (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:215:5)
+31 verbose stack     at RES (/usr/local/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+31 verbose stack     at f (/usr/local/lib/node_modules/npm/node_modules/once/once.js:17:25)
+31 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:173:7)
+31 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+32 verbose cwd /Users/chriswhong/Sites/dashboard
+33 error Darwin 15.0.0
+34 error argv "node" "/usr/local/bin/npm" "install"
+35 error node v0.12.2
+36 error npm  v2.7.4
+37 error code ETARGET
+38 error notarget No compatible version found: dashing-js@'>=0.1.6 <0.2.0'
+38 error notarget Valid install targets:
+38 error notarget ["0.0.1","0.0.2","0.0.3","0.0.4","0.0.5","0.0.6","0.0.7","0.0.8","0.0.9","0.0.10","0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5"]
+38 error notarget
+38 error notarget This is most likely not a problem with npm itself.
+38 error notarget In most cases you or one of your dependencies are requesting
+38 error notarget a package version that doesn't exist.
+38 error notarget
+38 error notarget It was specified as a dependency of 'dashboard'
+39 verbose exit [ 1, true ]
